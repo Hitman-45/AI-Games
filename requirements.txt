@@ -1,0 +1,5 @@
+gym==0.17.3
+slimevolleygym==0.1.0
+numpy
+gym-chess==0.1.0
+python-chess
