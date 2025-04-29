@@ -1,0 +1,605 @@
+Initial Board:
+
+♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+
+Move played: d2d4
+Evaluation: -2.6
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 322
+♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ♙ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ♙ ♙ ♙ ♙
+♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+
+Move played: e7e6
+Evaluation: -1.8
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+♟ ♟ ♟ ♟ ⭘ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ♙ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ♙ ♙ ♙ ♙
+♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+
+Move played: e2e4
+Evaluation: -3.0
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 694
+♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+♟ ♟ ♟ ♟ ⭘ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ♙ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ⭘ ♙ ♙ ♙
+♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+
+Move played: c7c5
+Evaluation: -2.5999999999999996
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+♟ ♟ ⭘ ♟ ⭘ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ♟ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ♙ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ⭘ ♙ ♙ ♙
+♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+
+Move played: d4c5
+Evaluation: -2.0
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 963
+♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+♟ ♟ ⭘ ♟ ⭘ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ♙ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ⭘ ♙ ♙ ♙
+♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+
+Move played: f8c5
+Evaluation: -1.7000000000000004
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ♝ ♛ ♚ ⭘ ♞ ♜
+♟ ♟ ⭘ ♟ ⭘ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ♝ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ⭘ ♙ ♙ ♙
+♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+
+Move played: d1d2
+Evaluation: -0.6000000000000001
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 1257
+♜ ♞ ♝ ♛ ♚ ⭘ ♞ ♜
+♟ ♟ ⭘ ♟ ⭘ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ♝ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ♕ ⭘ ♙ ♙ ♙
+♖ ♘ ♗ ⭘ ♔ ♗ ♘ ♖
+
+Move played: c5f2
+Evaluation: -3.4
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ♝ ♛ ♚ ⭘ ♞ ♜
+♟ ♟ ⭘ ♟ ⭘ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ♕ ⭘ ♝ ♙ ♙
+♖ ♘ ♗ ⭘ ♔ ♗ ♘ ♖
+
+Move played: e1f2
+Evaluation: -1.0000000000000007
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 107
+♜ ♞ ♝ ♛ ♚ ⭘ ♞ ♜
+♟ ♟ ⭘ ♟ ⭘ ♟ ♟ ♟
+⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ♕ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ♗ ♘ ♖
+
+Move played: b7b6
+Evaluation: -0.4000000000000005
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ♝ ♛ ♚ ⭘ ♞ ♜
+♟ ⭘ ⭘ ♟ ⭘ ♟ ♟ ♟
+⭘ ♟ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ♕ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ♗ ♘ ♖
+
+Move played: d2f4
+Evaluation: 2.6999999999999997
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 819
+♜ ♞ ♝ ♛ ♚ ⭘ ♞ ♜
+♟ ⭘ ⭘ ♟ ⭘ ♟ ♟ ♟
+⭘ ♟ ⭘ ⭘ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ♗ ♘ ♖
+
+Move played: d7d6
+Evaluation: -0.30000000000000043
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ♝ ♛ ♚ ⭘ ♞ ♜
+♟ ⭘ ⭘ ⭘ ⭘ ♟ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ♗ ♘ ♖
+
+Move played: f1b5
+Evaluation: 3.1999999999999997
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 993
+♜ ♞ ♝ ♛ ♚ ⭘ ♞ ♜
+♟ ⭘ ⭘ ⭘ ⭘ ♟ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: e8f8
+Evaluation: 1.6999999999999995
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ♝ ♛ ⭘ ♚ ♞ ♜
+♟ ⭘ ⭘ ⭘ ⭘ ♟ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♙ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ♙ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: b2b4
+Evaluation: 2.9
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 995
+♜ ♞ ♝ ♛ ⭘ ♚ ♞ ♜
+♟ ⭘ ⭘ ⭘ ⭘ ♟ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: g8e7
+Evaluation: -0.4000000000000005
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ♝ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ⭘ ♞ ♟ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: f4g5
+Evaluation: 3.1999999999999997
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 1083
+♜ ♞ ♝ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ⭘ ♞ ♟ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: c8d7
+Evaluation: -0.20000000000000034
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♝ ♞ ♟ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: b5d7
+Evaluation: 5.0
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 1123
+♜ ♞ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♗ ♞ ♟ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: f7f6
+Evaluation: 2.8999999999999995
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♗ ♞ ⭘ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ♟ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: g5g3
+Evaluation: 3.0999999999999996
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 1064
+♜ ♞ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♗ ♞ ⭘ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ♟ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: f6f5
+Evaluation: 2.7999999999999994
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♗ ♞ ⭘ ♟ ♟
+⭘ ♟ ⭘ ♟ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: g3d6
+Evaluation: 6.000000000000002
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 1060
+♜ ♞ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♗ ♞ ⭘ ♟ ♟
+⭘ ♟ ⭘ ♕ ♟ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: e6e5
+Evaluation: 4.3999999999999995
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ♞ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♗ ♞ ⭘ ♟ ♟
+⭘ ♟ ⭘ ♕ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♟ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: d6e5
+Evaluation: 7.000000000000002
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 836
+♜ ♞ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♗ ♞ ⭘ ♟ ♟
+⭘ ♟ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♕ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: b8d7
+Evaluation: 5.199999999999999
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♞ ♞ ⭘ ♟ ♟
+⭘ ♟ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ♕ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: e5e6
+Evaluation: 4.8
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 943
+♜ ⭘ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♞ ♞ ⭘ ♟ ♟
+⭘ ♟ ⭘ ⭘ ♕ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: g7g5
+Evaluation: 1.6999999999999995
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♞ ♞ ⭘ ⭘ ♟
+⭘ ♟ ⭘ ⭘ ♕ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ♟ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ♗ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: c1g5
+Evaluation: 6.700000000000001
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 749
+♜ ⭘ ⭘ ♛ ⭘ ♚ ⭘ ♜
+♟ ⭘ ⭘ ♞ ♞ ⭘ ⭘ ♟
+⭘ ♟ ⭘ ⭘ ♕ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ♗ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: a7a5
+Evaluation: 2.8
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ♛ ⭘ ♚ ⭘ ♜
+⭘ ⭘ ⭘ ♞ ♞ ⭘ ⭘ ♟
+⭘ ♟ ⭘ ⭘ ♕ ⭘ ⭘ ⭘
+♟ ⭘ ⭘ ⭘ ⭘ ♟ ♗ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: g5e7
+Evaluation: 14.0
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 847
+♜ ⭘ ⭘ ♛ ⭘ ♚ ⭘ ♜
+⭘ ⭘ ⭘ ♞ ♗ ⭘ ⭘ ♟
+⭘ ♟ ⭘ ⭘ ♕ ⭘ ⭘ ⭘
+♟ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: f8g7
+Evaluation: 8.000000000000002
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ♛ ⭘ ⭘ ⭘ ♜
+⭘ ⭘ ⭘ ♞ ♗ ⭘ ♚ ♟
+⭘ ♟ ⭘ ⭘ ♕ ⭘ ⭘ ⭘
+♟ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: e7d8
+Evaluation: 16.5
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 795
+♜ ⭘ ⭘ ♗ ⭘ ⭘ ⭘ ♜
+⭘ ⭘ ⭘ ♞ ⭘ ⭘ ♚ ♟
+⭘ ♟ ⭘ ⭘ ♕ ⭘ ⭘ ⭘
+♟ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+⭘ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: a5a4
+Evaluation: 15.100000000000001
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ♗ ⭘ ⭘ ⭘ ♜
+⭘ ⭘ ⭘ ♞ ⭘ ⭘ ♚ ♟
+⭘ ♟ ⭘ ⭘ ♕ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: e6d7
+Evaluation: 21.0
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 670
+♜ ⭘ ⭘ ♗ ⭘ ⭘ ⭘ ♜
+⭘ ⭘ ⭘ ♕ ⭘ ⭘ ♚ ♟
+⭘ ♟ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: g7h6
+Evaluation: 19.900000000000002
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ♗ ⭘ ⭘ ⭘ ♜
+⭘ ⭘ ⭘ ♕ ⭘ ⭘ ⭘ ♟
+⭘ ♟ ⭘ ⭘ ⭘ ⭘ ⭘ ♚
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: d7c6
+Evaluation: 23.8
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 558
+♜ ⭘ ⭘ ♗ ⭘ ⭘ ⭘ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♟
+⭘ ♟ ♕ ⭘ ⭘ ⭘ ⭘ ♚
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: h6g7
+Evaluation: 20.1
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ♗ ⭘ ⭘ ⭘ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♚ ♟
+⭘ ♟ ♕ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: c6f6
+Evaluation: 25.1
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 620
+♜ ⭘ ⭘ ♗ ⭘ ⭘ ⭘ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♚ ♟
+⭘ ♟ ⭘ ⭘ ⭘ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: g7g8
+Evaluation: 20.2
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ♗ ⭘ ⭘ ♚ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♟
+⭘ ♟ ⭘ ⭘ ⭘ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: d8b6
+Evaluation: 24.700000000000003
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 376
+♜ ⭘ ⭘ ⭘ ⭘ ⭘ ♚ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♟
+⭘ ♗ ⭘ ⭘ ⭘ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ⭘
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: h7h5
+Evaluation: 20.0
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ⭘ ⭘ ⭘ ♚ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ♕ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ♟
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: f6g6
+Evaluation: inf
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 529
+♜ ⭘ ⭘ ⭘ ⭘ ⭘ ♚ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ♟
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: g8f8
+Evaluation: 21.2
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 0
+♜ ⭘ ⭘ ⭘ ⭘ ♚ ⭘ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ♗ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ♟ ⭘ ♟
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
+
+Move played: b6c5
+Evaluation: inf
+Move by: {'White' if board.turn == chess.WHITE else 'Black'}
+Alpha-beta prunes this move: 452
+
+Game over!
+♜ ⭘ ⭘ ⭘ ⭘ ♚ ⭘ ♜
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ♕ ⭘
+⭘ ⭘ ♗ ⭘ ⭘ ♟ ⭘ ♟
+♟ ♙ ⭘ ⭘ ♙ ⭘ ⭘ ⭘
+⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘ ⭘
+♙ ⭘ ♙ ⭘ ⭘ ♔ ♙ ♙
+♖ ♘ ⭘ ⭘ ⭘ ⭘ ♘ ♖
